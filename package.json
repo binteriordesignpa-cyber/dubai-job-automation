@@ -1,0 +1,11 @@
+{
+  "name": "dubai-job-automation",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "AI-assisted Dubai job search and application workflow.",
+  "scripts": {
+    "start": "node src/master-agent/masterAgent.js",
+    "match": "node src/job-match/jobMatchAgent.js"
+  }
+}
